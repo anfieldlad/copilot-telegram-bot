@@ -14,7 +14,7 @@ type Configuration struct {
 func getToken() string {
 
 	// Open and read the configuration file
-	configFile, err := os.Open("D:\\Projects\\CopilotTelegramBot\\config.json")
+	configFile, err := os.Open("D:\\Projects\\copilot-telegram-bot\\config.json")
 	if err != nil {
 		log.Fatal("Error opening configuration file:", err)
 	}
