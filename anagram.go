@@ -1,15 +1,14 @@
 package main
 
-// Method call this HTTP GET API http://www.anagramica.com/best/:parameter
+// Method call this HTTP GET API http://www.anagramica.com/all/:parameter
 // where :parameter is the word to be checked for anagrams.
 // The API returns a JSON object with the following fields:
-// best: the best anagram of the word
 // all: all anagrams of the word
 //
 // Example:
-// http://www.anagramica.com/best/cheese
+// http://www.anagramica.com/all/cheese
 // {
-//  "best": [
+//  "all": [
 //    "cheese"
 //  ]
 //}
